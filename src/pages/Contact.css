@@ -1,0 +1,75 @@
+.inp-border-cont{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.icons-border-cont{
+    border-top: 1px rgb(184, 182, 182) solid;
+    border-left: 1px rgb(184, 182, 182) solid;
+    border-bottom: 1px rgb(184, 182, 182) solid;
+    color: gray;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.border-cont-form{
+    border-right: 10px black groove;
+    border-bottom: 10px black groove;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 30px;
+}
+
+.button-hover-grad-cont{
+
+
+   background-image: linear-gradient(to right,#0857C2   0%, #020687  51%, #0857C2  100%);
+           
+            
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            font-weight: 700;
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            /* display: block; */
+
+}
+
+.button-hover-grad-cont:hover{
+  /* animation: ani 4s linear;
+  border: none; */
+background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+}
+
+/* .banner-cont{
+    background: rgb(26, 25, 25);
+} */
+
+.map-cont{
+    border-right: 10px  solid;
+    border-bottom: 10px  solid;
+    border-right-color: #ededed;
+    border-bottom-color: #ededed;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+@media screen and (max-width: 600px) {
+   
+
+.border-cont-form{
+    border-right: 4px black groove;
+    border-bottom:4px black groove;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 30px;
+}
+
+
+}
+

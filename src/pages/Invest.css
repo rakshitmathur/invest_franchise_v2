@@ -1,0 +1,58 @@
+.right-list-banner{
+       background: rgba(3, 17, 143, 0.9);
+    
+    clip-path: polygon(100% 0, 19% 0, 81% 49%, 21% 100%, 100% 100%);
+}
+
+.glass-morph{
+  background: rgba( 255, 255, 255, 0.35 );
+box-shadow: 0 8px 32px 0 rgba(21, 31, 163, 0.788);
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .right-list-banner{
+       
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+}
+
+.border-franchise-image{
+  border-left: 10px #0857C2 groove;
+  border-bottom: 10px #0857C2 groove;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  /* color: rgb(44, 44, 44); */
+}
+
+.border-box-brands{
+  border-bottom: #0857C2 5px solid;
+}
+
+.border-box-brands1{
+  
+  box-shadow: #0857C2 0px 10px 30px -12px inset, #0857C2 0px 10px 30px -18px inset;
+}
+
+.image-banner-brands{
+  background: rgba(3, 17, 143, 0.89);
+    
+ clip-path: polygon(1% 0, 73% 0, 100% 51%, 72% 100%, 0 100%);
+
+}
+
+@media screen and (max-width: 719px) {
+.image-banner-brands{
+  clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 99%, 0% 100%);
+}
+}
+
+.hover-card-real:hover{
+  background: linear-gradient(90deg, #020687 , #0857C2);
+  
+}

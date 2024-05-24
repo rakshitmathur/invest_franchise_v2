@@ -1,0 +1,8 @@
+.marqee-logos img{
+    aspect-ratio: 3/2;
+    
+    background: transparent;
+    mix-blend-mode: color-burn;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+}
